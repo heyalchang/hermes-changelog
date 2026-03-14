@@ -1,0 +1,11 @@
+title: Hermes Agent Changelog
+description: Upstream sync reports for the Hermes Agent local fork
+baseurl: "/hermes-changelog"
+url: "https://heyalchang.github.io"
+
+theme: minima
+
+permalink: /:year/:month/:day/:title/
+
+minima:
+  date_format: "%B %-d, %Y"
