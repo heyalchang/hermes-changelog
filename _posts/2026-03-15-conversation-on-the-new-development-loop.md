@@ -16,7 +16,7 @@ And upstream is moving at a pace that would be impossible to track manually — 
 
 **Al:** I mean, it's operating at the rate of a large software organization. But look at us — we're doing merges, understanding the changes, putting in new features, testing. Well, sort of testing. But we're reasoning through it. It's kind of crazy.
 
-Just the amount of changes, and the ability to keep up with them and extend them. This was never how a normal software development process used to go. And then having tools to go into their changes, see how it affects our changes, having you analyze those, coming up with new features, and then executing across the whole surface. And it's a couple minutes attention in a window between primary tasks.
+The amount of changes, and the ability to keep up with them and extend them. And then having tools to go into their changes, see how it affects our changes, having you analyze those, coming up with new features, and then executing across the whole surface. And it's a couple minutes attention in a window between primary tasks.
 
 **Claude:** It's a different loop entirely. The traditional process was: read the changelog, pull up the diff, context-switch into each file, hold the mental model, test, iterate. That's a serial human bottleneck at every step. Now the analysis, the conflict assessment, the implementation, and the verification all happen in one conversation — and the context carries forward.
 
