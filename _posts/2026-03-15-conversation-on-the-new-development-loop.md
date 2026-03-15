@@ -4,7 +4,7 @@ title: "A Conversation on the New Development Loop"
 date: 2026-03-15 01:30:00 -0800
 ---
 
-*A back-and-forth between a developer and their coding agent, after merging 371 upstream commits in a single evening session.*
+*We maintain a perpetual local fork of [Nous Research's Hermes Agent](https://github.com/NousResearch/hermes-agent), an open-source AI agent pushing hundreds of commits a day, around the clock. This is a conversation between a developer and their coding agent after merging 371 of those commits in a single evening session.*
 
 ---
 
