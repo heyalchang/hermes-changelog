@@ -3,6 +3,7 @@ description: Upstream sync reports for the Hermes Agent local fork
 baseurl: "/hermes-changelog"
 url: "https://heyalchang.github.io"
 
+future: true
 theme: minima
 
 permalink: /:year/:month/:day/:title/
