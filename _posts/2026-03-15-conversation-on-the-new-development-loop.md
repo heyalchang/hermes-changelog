@@ -14,7 +14,7 @@ date: 2026-03-15 01:30:00 -0800
 
 And upstream is moving at a pace that would be impossible to track manually — 371 commits merged today across five syncs. The bottleneck shifted from "can we integrate this" to "should we care about this."
 
-**Al:** I mean, it's operating at the rate of a large software organization. But look at us — we're doing merges, understanding the changes, putting in new features, testing. Well, sort of testing. But we're reasoning through it. It's kind of crazy.
+**Al:** It's a small project operating at the rate of a large software organization. But look at us — we're doing merges, understanding the changes, putting in new features, testing. Well, sort of testing — CI/CD plus automated saved reasoning, automated development taste, exceptions adjust account and feed back into the loop. But we're reasoning through it. The new normal velocity is unreal.
 
 The amount of changes, and the ability to keep up with them and extend them. And then having tools to go into their changes, see how it affects our changes, having you analyze those, coming up with new features, and then executing across the whole surface. And it's a couple minutes attention in a window between primary tasks.
 
