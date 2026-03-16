@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upstream Sync: 83 Commits — Plugins, Persistent Shell, Browser CDP, Smart Approvals"
-date: 2026-03-16 08:00:00 -0800
+date: 2026-03-16 10:00:00 +0000
 ---
 
 *83 commits from [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), pending merge.*

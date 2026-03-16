@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Merge Notes: 83 Commits, Anthropic Accounting Fix, and What's Next for the Dashboard"
-date: 2026-03-16 13:00:00 -0800
+date: 2026-03-16 11:00:00 +0000
 ---
 
 *Notes from merging 83 upstream commits into our local fork on 2026-03-16. This covers the conflict analysis, a bug we found and fixed during merge, and upstream features worth surfacing locally.*

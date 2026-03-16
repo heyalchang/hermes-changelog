@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Smart Approvals and Rollback Checkpoints"
-date: 2026-03-16 09:00:00 -0800
+date: 2026-03-16 10:30:00 +0000
 ---
 
 Two features in the latest upstream batch that caught our attention while briefing the 83-commit sync.
