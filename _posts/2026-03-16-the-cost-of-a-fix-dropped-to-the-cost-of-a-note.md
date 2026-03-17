@@ -18,6 +18,4 @@ This isn't new in concept. Cron jobs, git hooks, CI pipelines, linters — we've
 
 The compounding is the point. Each fix is tiny — a UTC rule, a backup push, a blog post step, a date format memory. But they accumulate in skill files and memory that persist across conversations. The system gets slightly better at its own process every time we use it. Not because someone scheduled a retro or filed a ticket, but because the friction to improve is lower than the friction to ignore.
 
-Once there's a process around it, the work to make a fix happen is roughly the same as it used to be just to make a note that the fix should happen. And once you put a metaprocessor around it — a skill that runs other skills, a finalize phase that checks its own checklist — the fixes start fixing themselves.
-
-I noticed this while watching the agent add a backup push to the sync skill. It wasn't a task. It wasn't a ticket. It was a "yeah, that's a great idea" and a one-line edit, and now it's permanent. That's the thing that's different.
+The agent added a backup push to the sync skill. I didn't write the edit. I said "yeah, that's a great idea" and it became permanent. The idea was the edit.
