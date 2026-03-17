@@ -12,7 +12,7 @@ The answer was: write a one-line rule in the global CLAUDE.md ("Timestamps for r
 
 Then while merging 83 upstream commits, we noticed the merge wasn't being pushed to a backup remote. "Should I add that to the `/upstream-sync` finalize phase?" One line added to the skill file. Now every future merge auto-pushes to the private backup. Done.
 
-What struck me looking at the transcript wasn't any single fix. It was the pattern. The cost of making a process improvement dropped to roughly the cost of *noting* that a process improvement should be made. And often less — because the agent suggests the fix in the same breath as finding the problem. The gap between "we should do X" and "X is now done and will happen automatically forever" collapsed to nearly zero.
+What struck me looking at the transcript wasn't any single fix. It was the pattern. The cost of making a process improvement dropped to roughly the cost of *noting* that a process improvement should be made. *The fix can now be expressed in the exact same language as the complaint. English.* The gap between "we should do X" and "X is now done and will happen automatically forever" collapsed to nearly zero.
 
 This isn't new in concept. Cron jobs, git hooks, CI pipelines, linters — we've always had ways to encode process. But those require context-switching: leave the work, open a config file, remember the syntax, test it, come back. Here, the improvement happens *inline*, mid-conversation, without breaking stride. The context is already loaded. The skill file is right there. The memory system catches it for next time.
 
