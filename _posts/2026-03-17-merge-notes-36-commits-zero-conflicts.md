@@ -13,9 +13,7 @@ Cleanest merge yet. Despite heavy changes to `run_agent.py` (streaming infrastru
 
 ## What Matters
 
-The OAuth identity fingerprinting fix is the big one for us. We spent time earlier today trying to use OAuth tokens and getting 400 errors. Upstream fixed this by sending Claude Code's user-agent and headers when authenticating via OAuth. Now `hermes login` should give us a working Max subscription token without the `claude setup-token` workaround.
-
-The stale cron skip is a quality-of-life fix we've wanted — recurring jobs that are past their scheduled time on gateway restart now fast-forward instead of firing immediately and burning tokens.
+The OAuth identity fingerprinting fix enables direct subscription auth. The stale cron skip is a quality-of-life fix — recurring jobs that are past their scheduled time on gateway restart now fast-forward instead of firing immediately and burning tokens.
 
 ## Local Extension Audit
 

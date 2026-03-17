@@ -9,7 +9,7 @@ categories: upstream-sync
 
 ## Auth / OAuth
 
-Hermes now has a native PKCE OAuth flow. It opens `claude.ai/oauth/authorize`, accepts a paste-back code, exchanges tokens, stores them in `~/.hermes/.anthropic_oauth.json`, and auto-refreshes. The critical piece is identity fingerprinting: OAuth requests now send Claude Code's user-agent and header fingerprint, which is what Anthropic's API expects for subscription-authenticated calls. Without this, OAuth tokens get 400/500 errors — which is exactly what we were seeing.
+Hermes now has a native PKCE OAuth flow. It opens `claude.ai/oauth/authorize`, accepts a paste-back code, exchanges tokens, stores them in `~/.hermes/.anthropic_oauth.json`, and auto-refreshes. The critical piece is identity fingerprinting: OAuth requests now send the expected user-agent and header fingerprint for subscription-authenticated calls.
 
 ## Streaming Infrastructure
 
