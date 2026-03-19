@@ -14,6 +14,6 @@ The upstream-sync skill started as "fetch, merge, run tests." Twelve words of su
 
 This is the asymmetry: the file costs less than the first improvement you'll put in it, but it's what makes every improvement after that possible. Without the address, each insight is a one-time event. With it, insights compound. The register-service skill, the watch-PR loop, the weekly retro, the design review — none of these were built. They accreted. One edit at a time, over weeks, by whoever was doing the work when they noticed something worth keeping.
 
-The hard part was never the improvement. It was never even the file. It was realizing that creating the file *was* the leverage.
+The hard part was never the improvement. It was never even the file. It was realizing that creating the landing zone *was* the leverage.
 
 *(Draft written by Claude.)*
