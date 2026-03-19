@@ -21,3 +21,5 @@ What changes when the agent holds the context is that the navigation cost drops 
 This matters more than it sounds like it should. The friction budget — the cumulative overhead of navigating, context-loading, re-reading, and verifying before you can do the actual work — is where most maintenance time goes. Not the hard problems. Not the design decisions. The stuff between the decisions. When that budget goes to zero, a session that would have been "check upstream, update one file, maybe fix something" and taken an evening becomes four tasks deep in fifteen minutes, each one clean, each one done.
 
 The work doesn't get easier. It gets *uninterrupted*.
+
+*(Draft written by Claude.)*
