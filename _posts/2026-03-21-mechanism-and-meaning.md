@@ -7,7 +7,9 @@ draft: true
 
 Every view answers a question. The list answers "what do I have and how often does it run?" The detail pane answers "what exactly does this job do?" The calendar answers "when did things happen and when will they happen next?" Three views, three questions. No view trying to answer someone else's question.
 
-That's the principle. Here's where it came from.
+The design move isn't "simplify." Simplification implies the same information, presented more cleanly. This is choosing which *level of information* belongs where. The raw cron expression isn't clutter — it's useful, in the detail pane, next to the human-readable version, for someone who reads cron. It just doesn't belong in the scanning view, because in the scanning view you're not reading cron. You're asking "is this daily or weekly?"
+
+Here's where it came from.
 
 `0 5 * * *` is a cron schedule. It means "daily at 5 AM." The dashboard was showing the raw expression — five numbers and asterisks — and the instinct is to make it "more readable." Translate each field, add labels. But that's just the same mechanism in a different font. The question isn't how to display the expression. It's what the expression *means*.
 
